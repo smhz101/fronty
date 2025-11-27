@@ -4,67 +4,66 @@
   "settings": {
     "appearanceTools": true,
     "layout": {
-      "contentSize": "645px",
-      "wideSize": "1340px"
-    },
+			"contentSize": "640px",
+			"wideSize": "1200px"
+		},
     "color": {
       "defaultDuotone": false,
       "defaultGradients": false,
       "defaultPalette": false,
       "palette": [
-        {
-          "color": "#ffffff",
-          "name": "Base",
-          "slug": "base"
-        },
-        {
-          "color": "#000000",
-          "name": "Contrast",
-          "slug": "contrast"
-        },
-        {
-          "color": "#ff0000",
-          "name": "Primary",
-          "slug": "primary"
-        },
-        {
-          "color": "#990000",
-          "name": "Secondary",
-          "slug": "secondary"
-        },
-        {
-          "color": "#dddddd",
-          "name": "Neutral",
-          "slug": "neutral"
-        }
+        { "color": "#ffffff", "name": "Base", "slug": "base" },
+        { "color": "#0f172a", "name": "Contrast", "slug": "contrast" },
+        { "color": "#2563eb", "name": "Primary", "slug": "primary" },
+        { "color": "#1e40af", "name": "Secondary", "slug": "secondary" },
+        { "color": "#f8fafc", "name": "Neutral 50", "slug": "neutral-50" },
+        { "color": "#f1f5f9", "name": "Neutral 100", "slug": "neutral-100" },
+        { "color": "#e2e8f0", "name": "Neutral 200", "slug": "neutral-200" },
+        { "color": "#cbd5e1", "name": "Neutral 300", "slug": "neutral-300" },
+        { "color": "#94a3b8", "name": "Neutral 400", "slug": "neutral-400" },
+        { "color": "#64748b", "name": "Neutral 500", "slug": "neutral-500" },
+        { "color": "#475569", "name": "Neutral 600", "slug": "neutral-600" },
+        { "color": "#334155", "name": "Neutral 700", "slug": "neutral-700" },
+        { "color": "#1e293b", "name": "Neutral 800", "slug": "neutral-800" },
+        { "color": "#0f172a", "name": "Neutral 900", "slug": "neutral-900" }
       ],
       "gradients": [
         {
-          "gradient": "linear-gradient(0deg, var(--wp--preset--color--primary) 0%, var(--wp--preset--color--contrast) 100%)",
-          "name": "Primary to Contrast",
-          "slug": "primary-contrast"
+          "gradient": "linear-gradient(135deg, #2563eb 0%, #1e40af 100%)",
+          "name": "Electric Blue",
+          "slug": "electric-blue"
         },
         {
-          "name": "Heat",
-          "slug": "heat",
-          "gradient": "linear-gradient(135deg, var(--wp--preset--color--primary), var(--wp--preset--color--contrast))"
+          "gradient": "linear-gradient(135deg, #0f172a 0%, #1e293b 100%)",
+          "name": "Midnight Blue",
+          "slug": "midnight-blue"
+        },
+        {
+          "gradient": "linear-gradient(135deg, #f1f5f9 0%, #cbd5e1 100%)",
+          "name": "Soft Slate",
+          "slug": "soft-slate"
+        },
+        {
+          "gradient": "linear-gradient(135deg, #2563eb 0%, #0f172a 100%)",
+          "name": "Deep Ocean",
+          "slug": "deep-ocean"
         }
       ],
       "duotone": [
         {
-          "colors": ["#000000", "#ffffff"],
-          "name": "Black and White",
-          "slug": "black-and-white"
+          "colors": ["#0f172a", "#ffffff"],
+          "name": "Dark & Light",
+          "slug": "dark-and-light"
         },
         {
-          "colors": ["#0000ff", "#ffffff"],
-          "name": "Primary and White",
-          "slug": "primary-and-white"
+          "colors": ["#2563eb", "#ffffff"],
+          "name": "Blue & White",
+          "slug": "blue-and-white"
         },
         {
-          "colors": ["#000099", "#ffffff"],
-          "name": "Secondary and White",
-          "slug": "secondary-and-white"
+          "colors": ["#1e40af", "#cbd5e1"],
+          "name": "Blue & Slate",
+          "slug": "blue-and-slate"
         }
       ]
     },
@@ -76,50 +75,149 @@
           "name": "System Fonts"
         },
         {
-          "fontFamily": "Geneva, Tahoma, Verdana, sans-serif",
-          "slug": "geneva-verdana",
-          "name": "Geneva / Verdana"
-        },
-        {
-          "fontFamily": "\"Source Serif Pro\", serif",
-          "name": "Source Serif Pro",
-          "slug": "source-serif-pro",
+          "fontFamily": "\"Outfit\", sans-serif",
+          "name": "Outfit",
+          "slug": "outfit",
           "fontFace": [
             {
-              "fontFamily": "Source Serif Pro",
-              "fontWeight": "400 700",
+              "fontFamily": "Outfit",
+              "fontWeight": "100 900",
               "fontStyle": "normal",
               "fontStretch": "normal",
-              "src": ["file:./assets/fonts/SourceSerifPro-regular.woff2"]
-            },
+              "fontDisplay": "swap",
+              "src": ["https://fonts.gstatic.com/s/outfit/v11/QGYyz_MVcBeNP4NjuGObqx1XmO1I4TC0C4G-StheGfs.woff2"]
+            }
+          ]
+        },
+        {
+          "fontFamily": "\"Inter\", sans-serif",
+          "name": "Inter",
+          "slug": "inter",
+          "fontFace": [
             {
-              "fontFamily": "Source Serif Pro",
-              "fontWeight": "400 700",
-              "fontStyle": "italic",
+              "fontFamily": "Inter",
+              "fontWeight": "100 900",
+              "fontStyle": "normal",
               "fontStretch": "normal",
-              "src": ["file:./assets/fonts/SourceSerifPro-italic.woff2"]
+              "fontDisplay": "swap",
+              "src": ["https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hjp-Ek-_EeA.woff2"]
             }
           ]
         }
       ],
       "fontSizes": [
-        {
-          "slug": "small",
-          "size": "1rem",
-          "name": "Small"
-        },
-        {
-          "slug": "extra-large",
-          "size": "3rem",
-          "name": "Extra large"
-        }
+        { "slug": "xs", "size": "clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem)", "name": "XS" },
+        { "slug": "sm", "size": "clamp(0.875rem, 0.8rem + 0.375vw, 1rem)", "name": "Small" },
+        { "slug": "base", "size": "clamp(1rem, 0.95rem + 0.25vw, 1.125rem)", "name": "Base" },
+        { "slug": "md", "size": "clamp(1.125rem, 1.05rem + 0.375vw, 1.25rem)", "name": "Medium" },
+        { "slug": "lg", "size": "clamp(1.25rem, 1.15rem + 0.5vw, 1.5rem)", "name": "Large" },
+        { "slug": "xl", "size": "clamp(1.5rem, 1.35rem + 0.75vw, 1.875rem)", "name": "XL" },
+        { "slug": "2xl", "size": "clamp(1.875rem, 1.65rem + 1.125vw, 2.25rem)", "name": "2XL" },
+        { "slug": "3xl", "size": "clamp(2.25rem, 2rem + 1.25vw, 3rem)", "name": "3XL" },
+        { "slug": "4xl", "size": "clamp(3rem, 2.5rem + 2.5vw, 4.5rem)", "name": "4XL" },
+        { "slug": "5xl", "size": "clamp(3.75rem, 3rem + 3.75vw, 6rem)", "name": "5XL" }
       ]
     },
-    "spacing": {},
-    "shadow": {},
-    "useRootPaddingAwareAlignments": false
+    "spacing": {
+      "spacingScale": { "steps": 0 },
+      "spacingSizes": [
+        { "slug": "20", "size": "clamp(0.5rem, 0.4rem + 0.5vw, 0.75rem)", "name": "XS" },
+        { "slug": "30", "size": "clamp(0.75rem, 0.65rem + 0.5vw, 1rem)", "name": "Small" },
+        { "slug": "40", "size": "clamp(1rem, 0.8rem + 1vw, 1.5rem)", "name": "Medium" },
+        { "slug": "50", "size": "clamp(1.5rem, 1.2rem + 1.5vw, 2.25rem)", "name": "Large" },
+        { "slug": "60", "size": "clamp(2.25rem, 1.8rem + 2.25vw, 3.375rem)", "name": "XL" },
+        { "slug": "70", "size": "clamp(3.375rem, 2.7rem + 3.375vw, 5rem)", "name": "2XL" },
+        { "slug": "80", "size": "clamp(5rem, 4rem + 5vw, 7.5rem)", "name": "3XL" }
+      ]
+    },
+    "shadow": {
+      "defaultPresets": false,
+      "presets": [
+        { "slug": "sm", "name": "Small", "shadow": "0 1px 2px 0 rgba(0, 0, 0, 0.05)" },
+        { "slug": "md", "name": "Medium", "shadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)" },
+        { "slug": "lg", "name": "Large", "shadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)" },
+        { "slug": "xl", "name": "Extra Large", "shadow": "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)" },
+        { "slug": "inner", "name": "Inner", "shadow": "inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)" }
+      ]
+    },
+    "useRootPaddingAwareAlignments": true
   },
-  "styles": {},
+  "styles": {
+    "typography": {
+      "fontFamily": "var:preset|font-family|inter",
+      "fontSize": "var:preset|font-size|base",
+      "lineHeight": "1.7"
+    },
+    "elements": {
+      "heading": {
+        "typography": {
+          "fontFamily": "var:preset|font-family|outfit",
+          "fontWeight": "700",
+          "lineHeight": "1.2"
+        }
+      },
+      "h1": { "typography": { "fontSize": "var:preset|font-size|4-xl", "fontWeight": "800", "letterSpacing": "-0.02em" } },
+      "h2": { "typography": { "fontSize": "var:preset|font-size|3-xl", "fontWeight": "700", "letterSpacing": "-0.01em" } },
+      "h3": { "typography": { "fontSize": "var:preset|font-size|2-xl", "fontWeight": "600" } },
+      "h4": { "typography": { "fontSize": "var:preset|font-size|xl", "fontWeight": "600" } },
+      "h5": { "typography": { "fontSize": "var:preset|font-size|lg", "fontWeight": "600" } },
+      "h6": { "typography": { "fontSize": "var:preset|font-size|md", "fontWeight": "600", "textTransform": "uppercase", "letterSpacing": "0.05em" } },
+      "link": {
+        "color": { "text": "var:preset|color|primary" },
+        "typography": { "textDecoration": "none" },
+        ":hover": { "typography": { "textDecoration": "underline" } }
+      },
+      "button": {
+        "border": { "radius": "6px" },
+        "typography": { "fontWeight": "600" }
+      },
+      "caption": {
+        "typography": { "fontSize": "var:preset|font-size|sm" },
+        "color": { "text": "var:preset|color|neutral-600" }
+      },
+      "cite": {
+        "typography": { "fontSize": "var:preset|font-size|sm", "fontStyle": "italic" },
+        "color": { "text": "var:preset|color|neutral-500" }
+      }
+    },
+    "blocks": {
+      "core/button": {
+        "border": { "radius": "6px" },
+        "spacing": { "padding": { "top": "0.75rem", "bottom": "0.75rem", "left": "1.5rem", "right": "1.5rem" } }
+      },
+      "core/image": {
+        "border": { "radius": "12px" },
+        "shadow": "var:preset|shadow|md"
+      },
+      "core/table": {
+        "border": { "width": "1px", "style": "solid", "color": "var:preset|color|neutral-200" },
+        "typography": { "fontSize": "var:preset|font-size|sm" }
+      },
+      "core/quote": {
+        "border": { "left": { "color": "var:preset|color|primary", "width": "4px" } },
+        "spacing": { "padding": { "left": "var:preset|spacing|40" } },
+        "typography": { "fontSize": "var:preset|font-size|lg", "fontStyle": "italic" }
+      },
+      "core/code": {
+        "color": { "background": "var:preset|color|neutral-100", "text": "var:preset|color|neutral-800" },
+        "border": { "radius": "4px" },
+        "spacing": { "padding": { "top": "var:preset|spacing|20", "bottom": "var:preset|spacing|20", "left": "var:preset|spacing|30", "right": "var:preset|spacing|30" } },
+        "typography": { "fontFamily": "var:preset|font-family|system-fonts", "fontSize": "var:preset|font-size|sm" }
+      },
+      "core/preformatted": {
+        "color": { "background": "var:preset|color|neutral-900", "text": "var:preset|color|neutral-50" },
+        "border": { "radius": "8px" },
+        "spacing": { "padding": { "top": "var:preset|spacing|30", "bottom": "var:preset|spacing|30", "left": "var:preset|spacing|30", "right": "var:preset|spacing|30" } },
+        "typography": { "fontFamily": "var:preset|font-family|system-fonts", "fontSize": "var:preset|font-size|sm" }
+      },
+      "core/search": {
+        "css": ".wp-block-search__input { padding: 12px; border: 1px solid var(--wp--preset--color--neutral-300); border-radius: 6px; } .wp-block-search__button { margin-left: 8px; }"
+      },
+      "core/separator": {
+        "color": { "text": "var:preset|color|neutral-200" }
+      }
+    }
+  },
   "templateParts": [
     {
       "name": "header",
