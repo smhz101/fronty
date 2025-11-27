@@ -1,0 +1,14 @@
+# WordPress
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/themes/*/node_modules/
+wp-content/plugins/*/node_modules/
+.env
+.DS_Store
+Thumbs.db
+node_modules/
+dist/
+*.log
+.vscode/
