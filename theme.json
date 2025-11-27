@@ -1,12 +1,8 @@
 {
-  "$schema": "https://schemas.wp.org/wp/6.7/theme.json",
-  "version": 3,
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
   "settings": {
     "appearanceTools": true,
-    "layout": {
-			"contentSize": "640px",
-			"wideSize": "1200px"
-		},
     "color": {
       "defaultDuotone": false,
       "defaultGradients": false,
@@ -67,7 +63,132 @@
         }
       ]
     },
+    "custom": {
+			"fontWeight": {
+				"thin": 100,
+				"extra-light": 200,
+				"light": 300,
+				"regular": 425,
+				"medium": 500,
+				"semi-bold": 600,
+				"bold": 700,
+				"extra-bold": 800,
+				"black": 900
+			},
+			"lineHeight": {
+				"none": 1,
+				"tight": 1.1,
+				"snug": 1.2,
+				"body": 1.5,
+				"relaxed": 1.625,
+				"loose": 2
+			}
+		},
+    "layout": {
+			"contentSize": "740px",
+			"wideSize": "1260px"
+		},
+		"shadow": {
+			"defaultPresets": false,
+      "presets": [
+        {
+          "name": "Extra Large Dark",
+          "slug": "extra-large-dark",
+          "shadow": "0px 536px 150px 0px rgba(20, 17, 31, 0.00), 0px 343px 137px 0px rgba(20, 17, 31, 0.01), 0px 193px 116px 0px rgba(20, 17, 31, 0.05), 0px 86px 86px 0px rgba(20, 17, 31, 0.09), 0px 21px 47px 0px rgba(20, 17, 31, 0.10)"
+        },
+				{
+          "name": "Large Dark",
+          "slug": "large-dark",
+          "shadow": "0px 219px 61px 0px rgba(20, 17, 31, 0.00), 0px 140px 56px 0px rgba(20, 17, 31, 0.01), 0px 79px 47px 0px rgba(20, 17, 31, 0.05), 0px 35px 35px 0px rgba(20, 17, 31, 0.09), 0px 9px 19px 0px rgba(20, 17, 31, 0.10)"
+        },
+				{
+          "name": "Medium Dark",
+          "slug": "medium-dark",
+          "shadow": "0px 66px 18px 0px rgba(20, 17, 31, 0.00), 0px 42px 17px 0px rgba(20, 17, 31, 0.01), 0px 24px 14px 0px rgba(20, 17, 31, 0.05), 0px 10px 10px 0px rgba(20, 17, 31, 0.09), 0px 3px 6px 0px rgba(20, 17, 31, 0.10)"
+        },
+				{
+          "name": "Small Dark",
+          "slug": "small-dark",
+          "shadow": "0px 16px 4px 0px rgba(20, 17, 31, 0.00), 0px 10px 4px 0px rgba(20, 17, 31, 0.01), 0px 6px 3px 0px rgba(20, 17, 31, 0.05), 0px 3px 3px 0px rgba(20, 17, 31, 0.09), 0px 1px 1px 0px rgba(20, 17, 31, 0.10)"
+        },
+				{
+          "name": "Extra Large Light",
+          "slug": "extra-large-light",
+          "shadow": "0px 536px 150px 0px rgba(20, 17, 31, 0.00), 0px 343px 137px 0px rgba(20, 17, 31, 0.01), 0px 193px 116px 0px rgba(20, 17, 31, 0.03), 0px 86px 86px 0px rgba(20, 17, 31, 0.04), 0px 21px 47px 0px rgba(20, 17, 31, 0.05)"
+        },
+				{
+          "name": "Large Light",
+          "slug": "large-light",
+          "shadow": "0px 219px 61px 0px rgba(20, 17, 31, 0.00), 0px 140px 56px 0px rgba(20, 17, 31, 0.01), 0px 79px 47px 0px rgba(20, 17, 31, 0.03), 0px 35px 35px 0px rgba(20, 17, 31, 0.04), 0px 9px 19px 0px rgba(20, 17, 31, 0.05)"
+        },
+				{
+          "name": "Medium Light",
+          "slug": "medium-light",
+          "shadow": "0px 69px 19px 0px rgba(20, 17, 31, 0.00), 0px 44px 18px 0px rgba(20, 17, 31, 0.01), 0px 25px 15px 0px rgba(20, 17, 31, 0.03), 0px 11px 11px 0px rgba(20, 17, 31, 0.04), 0px 3px 6px 0px rgba(20, 17, 31, 0.05)"
+        },
+				{
+          "name": "Small Light",
+          "slug": "small-light",
+          "shadow": "0px 16px 5px 0px rgba(20, 17, 31, 0.00), 0px 10px 4px 0px rgba(20, 17, 31, 0.00), 0px 6px 4px 0px rgba(20, 17, 31, 0.02), 0px 3px 3px 0px rgba(20, 17, 31, 0.03), 0px 1px 1px 0px rgba(20, 17, 31, 0.03)"
+        }
+      ]
+    },
+		"spacing": {
+			"defaultSpacingSizes": false,
+			"spacingSizes": [
+				{
+					"name": "Small",
+					"size": "clamp(.5rem, 2.5vw, 1rem)",
+					"slug": "small"
+				},
+				{
+					"name": "Medium",
+					"size": "clamp(1.5rem, 4vw, 2rem)",
+					"slug": "medium"
+				},
+				{
+					"name": "Large",
+					"size": "clamp(2rem, 5vw, 3rem)",
+					"slug": "large"
+				},
+				{
+					"name": "Extra Large",
+					"size": "clamp(3rem, 7vw, 5rem)",
+					"slug": "x-large"
+				},
+				{
+					"name": "2xl",
+					"size": "clamp(4rem, 9vw, 7rem)",
+					"slug": "xx-large"
+				},
+				{
+					"name": "3xl",
+					"size": "clamp(5rem, 12vw, 9rem)",
+					"slug": "xxx-large"
+				},
+				{
+					"name": "4xl",
+					"size": "clamp(6rem, 14vw, 13rem)",
+					"slug": "xxxx-large"
+				}
+			],
+			"units": [
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw",
+				"%"
+			],
+			"blockGap": true,
+			"padding": true,
+			"margin": true
+		},
     "typography": {
+			"dropCap": false,
+			"defaultFontSizes": false,
+			"fluid": true,
+			"writingMode": true,
       "fontFamilies": [
         {
           "fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
@@ -116,28 +237,6 @@
         { "slug": "3xl", "size": "clamp(2.25rem, 2rem + 1.25vw, 3rem)", "name": "3XL" },
         { "slug": "4xl", "size": "clamp(3rem, 2.5rem + 2.5vw, 4.5rem)", "name": "4XL" },
         { "slug": "5xl", "size": "clamp(3.75rem, 3rem + 3.75vw, 6rem)", "name": "5XL" }
-      ]
-    },
-    "spacing": {
-      "spacingScale": { "steps": 0 },
-      "spacingSizes": [
-        { "slug": "20", "size": "clamp(0.5rem, 0.4rem + 0.5vw, 0.75rem)", "name": "XS" },
-        { "slug": "30", "size": "clamp(0.75rem, 0.65rem + 0.5vw, 1rem)", "name": "Small" },
-        { "slug": "40", "size": "clamp(1rem, 0.8rem + 1vw, 1.5rem)", "name": "Medium" },
-        { "slug": "50", "size": "clamp(1.5rem, 1.2rem + 1.5vw, 2.25rem)", "name": "Large" },
-        { "slug": "60", "size": "clamp(2.25rem, 1.8rem + 2.25vw, 3.375rem)", "name": "XL" },
-        { "slug": "70", "size": "clamp(3.375rem, 2.7rem + 3.375vw, 5rem)", "name": "2XL" },
-        { "slug": "80", "size": "clamp(5rem, 4rem + 5vw, 7.5rem)", "name": "3XL" }
-      ]
-    },
-    "shadow": {
-      "defaultPresets": false,
-      "presets": [
-        { "slug": "sm", "name": "Small", "shadow": "0 1px 2px 0 rgba(0, 0, 0, 0.05)" },
-        { "slug": "md", "name": "Medium", "shadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)" },
-        { "slug": "lg", "name": "Large", "shadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)" },
-        { "slug": "xl", "name": "Extra Large", "shadow": "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)" },
-        { "slug": "inner", "name": "Inner", "shadow": "inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)" }
       ]
     },
     "useRootPaddingAwareAlignments": true
@@ -218,6 +317,7 @@
       }
     }
   },
+  "customTemplates": [],
   "templateParts": [
     {
       "name": "header",
@@ -229,6 +329,5 @@
       "title": "Footer",
       "area": "footer"
     }
-  ],
-  "customTemplates": []
+  ]
 }
