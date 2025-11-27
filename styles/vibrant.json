@@ -1,0 +1,43 @@
+{
+  "version": 3,
+  "settings": {
+    "color": {
+      "palette": [
+        { "color": "#ffffff", "name": "Base", "slug": "base" },
+        { "color": "#111827", "name": "Contrast", "slug": "contrast" },
+        { "color": "#8b5cf6", "name": "Primary", "slug": "primary" },
+        { "color": "#ec4899", "name": "Secondary", "slug": "secondary" },
+        { "color": "#f3f4f6", "name": "Neutral", "slug": "neutral" }
+      ],
+      "gradients": [
+        {
+          "gradient": "linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%)",
+          "name": "Vibrant Fusion",
+          "slug": "vibrant-fusion"
+        },
+        {
+          "gradient": "linear-gradient(135deg, #ec4899 0%, #f43f5e 100%)",
+          "name": "Sunset Pop",
+          "slug": "sunset-pop"
+        },
+        {
+          "gradient": "linear-gradient(135deg, #8b5cf6 0%, #6366f1 100%)",
+          "name": "Electric Violet",
+          "slug": "electric-violet"
+        }
+      ],
+      "duotone": [
+        {
+          "colors": ["#8b5cf6", "#ec4899"],
+          "name": "Purple & Pink",
+          "slug": "purple-and-pink"
+        },
+        {
+          "colors": ["#6366f1", "#ffffff"],
+          "name": "Indigo & White",
+          "slug": "indigo-and-white"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "version": 3,
+  "settings": {
+    "color": {
+      "palette": [
+        { "color": "#f0f9ff", "name": "Base", "slug": "base" },
+        { "color": "#0c4a6e", "name": "Contrast", "slug": "contrast" },
+        { "color": "#0ea5e9", "name": "Primary", "slug": "primary" },
+        { "color": "#38bdf8", "name": "Secondary", "slug": "secondary" },
+        { "color": "#e0f2fe", "name": "Neutral", "slug": "neutral" }
+      ],
+      "gradients": [
+        {
+          "gradient": "linear-gradient(135deg, #0ea5e9 0%, #0c4a6e 100%)",
+          "name": "Deep Sea",
+          "slug": "deep-sea"
+        },
+        {
+          "gradient": "linear-gradient(135deg, #38bdf8 0%, #0ea5e9 100%)",
+          "name": "Aqua Splash",
+          "slug": "aqua-splash"
+        },
+        {
+          "gradient": "linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%)",
+          "name": "Sea Foam",
+          "slug": "sea-foam"
+        }
+      ],
+      "duotone": [
+        {
+          "colors": ["#0c4a6e", "#f0f9ff"],
+          "name": "Navy & Foam",
+          "slug": "navy-and-foam"
+        },
+        {
+          "colors": ["#0ea5e9", "#ffffff"],
+          "name": "Sky & White",
+          "slug": "sky-and-white"
+        }
+      ]
+    }
+  }
+}

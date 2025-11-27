@@ -1,0 +1,43 @@
+{
+  "version": 3,
+  "settings": {
+    "color": {
+      "palette": [
+        { "color": "#0f172a", "name": "Base", "slug": "base" },
+        { "color": "#f8fafc", "name": "Contrast", "slug": "contrast" },
+        { "color": "#3b82f6", "name": "Primary", "slug": "primary" },
+        { "color": "#1d4ed8", "name": "Secondary", "slug": "secondary" },
+        { "color": "#1e293b", "name": "Neutral", "slug": "neutral" }
+      ],
+      "gradients": [
+        {
+          "gradient": "linear-gradient(135deg, #0f172a 0%, #1e293b 100%)",
+          "name": "Midnight Depth",
+          "slug": "midnight-depth"
+        },
+        {
+          "gradient": "linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%)",
+          "name": "Electric Night",
+          "slug": "electric-night"
+        },
+        {
+          "gradient": "linear-gradient(135deg, #1e293b 0%, #334155 100%)",
+          "name": "Dark Slate",
+          "slug": "dark-slate"
+        }
+      ],
+      "duotone": [
+        {
+          "colors": ["#000000", "#3b82f6"],
+          "name": "Black & Blue",
+          "slug": "black-and-blue"
+        },
+        {
+          "colors": ["#1e293b", "#94a3b8"],
+          "name": "Dark Grays",
+          "slug": "dark-grays"
+        }
+      ]
+    }
+  }
+}
